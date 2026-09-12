@@ -29,7 +29,7 @@ body{margin:0;background:var(--ivory);color:var(--charcoal);font-family:var(--sa
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* Yahan cover ki jagah contain karna hai */
   z-index: 1;
 }
 .splash .enter-btn {
