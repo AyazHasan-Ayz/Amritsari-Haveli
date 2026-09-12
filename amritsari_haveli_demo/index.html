@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Amritsari Haveli — World Record Holder Restaurant Chain</title>
+  <meta name="description" content="Authentic flavours of Amritsar, delivered from Amritsari Haveli.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="grain"></div>
+  <section id="splash" class="splash" aria-label="Welcome">
+    <div class="splash-frame">
+      <div class="orn orn-tl">❧</div><div class="orn orn-tr">❧</div>
+      <div class="orn orn-bl">❧</div><div class="orn orn-br">❧</div>
+      <div class="splash-topline"></div>
+      <div class="splash-brand">
+        <img src="assets/logo/logo-large.png" alt="Amritsari Haveli logo" class="splash-logo">
+        <div class="divider-ornament">❦</div>
+        <h1>Authentic Flavours<br>of Amritsar</h1>
+        <p class="eyebrow-wide">TRADITION <span>•</span> TASTE <span>•</span> TOGETHER</p>
+        <button class="primary-cta enter-btn" type="button">ORDER ONLINE <span>→</span></button>
+      </div>
+      <div class="splash-architecture"></div>
+    </div>
+  </section>
+
+  <div id="site" class="site hidden">
+    <header class="navbar" id="top">
+      <div class="nav-wrap">
+        <a class="brand-link" href="#top" aria-label="Amritsari Haveli home">
+          <img src="assets/logo/logo-nav.png" alt="Amritsari Haveli" class="nav-logo">
+        </a>
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a class="active" href="#top">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#offers">Offers</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="icon-btn" aria-label="Search" id="searchBtn"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button>
+          <button class="icon-btn cart-trigger" aria-label="Open cart" id="cartBtn"><svg viewBox="0 0 24 24"><path d="M5 6h2l1.4 9.2a2 2 0 0 0 2 1.7h6.8a2 2 0 0 0 1.9-1.5L21 9H8"></path><circle cx="10" cy="20" r="1.4"></circle><circle cx="18" cy="20" r="1.4"></circle></svg><span class="cart-badge" id="cartCount">0</span></button>
+          <button class="icon-btn menu-toggle" aria-label="Open menu" id="menuToggle"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+      <div class="mobile-drawer" id="mobileDrawer">
+        <a href="#top">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#offers">Offers</a><a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img src="assets/images/hero.jpg" alt="Punjabi food in copper serving ware" class="hero-img">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="micro-label">TRADITIONAL PUNJABI CUISINE</p>
+          <h2>Authentic<br>Amritsari Taste,<br><span>Delivered</span></h2>
+          <p class="hero-copy">From our kitchen to your home<br>— the real taste of Amritsar.</p>
+          <div class="hero-buttons"><a class="primary-cta small" href="#menu">Order Now <span>→</span></a></div>
+        </div>
+      </section>
+
+      <section class="section categories" id="menu">
+        <div class="section-head">
+          <div><p class="micro-label dark">EXPLORE OUR MENU</p><h3>Popular Categories</h3></div>
+          <a class="text-link" href="#full-menu">View Full Menu <span>→</span></a>
+        </div>
+        <div class="category-scroller" id="categoryScroller"></div>
+      </section>
+
+      <section class="section bestsellers" id="full-menu">
+        <div class="section-head"><div><p class="micro-label dark">POPULAR PICKS</p><h3>Our Bestsellers</h3></div><button class="text-link ghost" id="viewAllBtn">View All <span>→</span></button></div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="offer-banner" id="offers">
+        <img src="assets/images/offer.jpg" alt="Special offer" />
+        <div class="offer-overlay"></div>
+        <div class="offer-copy">
+          <p class="micro-label light">SPECIAL OFFERS</p><h3>Get 20% Off</h3><p>on your first order</p>
+          <div class="offer-row"><span>Use Code: <b>HAVELI20</b></span><a class="outline-cta" href="#menu">Order Now <span>→</span></a></div>
+        </div>
+      </section>
+
+      <section class="story section" id="about">
+        <div class="story-media"><img src="assets/images/story.jpg" alt="Amritsari Haveli restaurant interior"></div>
+        <div class="story-copy"><p class="micro-label dark">OUR STORY</p><h3>More Than Just Food</h3><p>Amritsari Haveli is a celebration of rich Punjabi culture, authentic flavours and warm hospitality. With years of trust and a legacy of great taste, we bring you the true essence of Amritsar — now at your doorstep.</p>
+          <div class="features"><div><span class="feature-icon">♥</span><b>Fresh Ingredients</b><small>Always</small></div><div><span class="feature-icon">◎</span><b>Authentic Taste</b><small>Always</small></div><div><span class="feature-icon">◫</span><b>Fast Delivery</b><small>Always</small></div></div>
+        </div>
+      </section>
+
+      <section class="contact-strip section" id="contact">
+        <div><p class="micro-label dark">VISIT THE HAVELI</p><h3>Made for celebrations, cravings & conversations.</h3></div>
+        <div class="contact-card"><p><b>Opening Hours</b><br>11:00 AM — 11:00 PM</p><p><b>Phone</b><br>+91 90000 00000</p><p><b>Address</b><br>Amritsar, Punjab, India</p><a href="https://wa.me/919000000000" class="whatsapp" target="_blank" rel="noopener">WhatsApp →</a></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid"><div><img src="assets/logo/logo-footer.png" class="footer-logo" alt="Amritsari Haveli"><p>Authentic flavours of Amritsar, served with warmth.</p></div><div><h4>Quick Links</h4><a href="#menu">Menu</a><a href="#offers">Offers</a><a href="#about">About</a><a href="#contact">Contact</a></div><div><h4>Follow Us</h4><div class="socials"><a href="#">◎</a><a href="#">f</a><a href="#">▶</a></div></div></div>
+      <div class="footer-bottom"><span>© 2025 Amritsari Haveli. All rights reserved.</span><span>Tradition • Taste • Together</span></div>
+    </footer>
+  </div>
+
+  <div class="cart-panel" id="cartPanel" aria-hidden="true"><div class="cart-backdrop" id="cartBackdrop"></div><aside class="cart-drawer"><div class="cart-head"><h3>Your Cart</h3><button class="close-cart" id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="cart-summary"><div><span>Subtotal</span><b id="subtotal">₹0</b></div><div><span>Delivery</span><b id="delivery">₹40</b></div><div class="total"><span>Total</span><b id="total">₹0</b></div><button class="primary-cta full" id="checkoutBtn">CHECKOUT <span>→</span></button></div></aside></div>
+
+  <div class="product-modal" id="productModal" aria-hidden="true"><div class="modal-backdrop" id="modalBackdrop"></div><div class="modal-card"><button class="modal-close" id="modalClose">×</button><img id="modalImage" src="" alt=""><div class="modal-content"><p class="micro-label dark" id="modalType"></p><h3 id="modalName"></h3><p id="modalDesc"></p><div class="modal-meta"><span id="modalRating"></span><b id="modalPrice"></b></div><div class="qty-row"><button id="qtyMinus">−</button><span id="qtyValue">1</span><button id="qtyPlus">+</button><button class="primary-cta small modal-add" id="modalAdd">ADD TO CART</button></div></div></div></div>
+
+  <div class="search-pop" id="searchPop"><div><input id="searchInput" placeholder="Search dishes..." autocomplete="off"><button id="closeSearch">×</button></div><p>Try “Butter Chicken”, “Kulcha” or “Dal Makhani”.</p></div>
+
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>
