@@ -347,7 +347,13 @@
         gap: 8px;
         flex-direction: column;
     }
+    .footer-logo-box {
+    padding: 8px 12px;
+    }
 
+    .footer-logo {
+    width: 135px;
+    }
 
     /* =========================
        PRODUCT MODAL
